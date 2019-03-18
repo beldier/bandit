@@ -1,0 +1,23 @@
+bandit 1
+just cat a file taking care of '-' name character
+bandit 2
+sames as 1 just with spaces 
+bandit 3
+find a hidden file 
+bandit 4
+use file to get the one different to data 
+file ./*
+bandit 5
+find ./* -size 1033c ! -executable 
+bandit 6
+find ./* -size 33c -group bandit6 -user bandit7 2>/dev/null
+bandit 7
+grep "millionth" data.txt
+bandit 8
+cat data.txt | sort | uniq -u
+bandit 9
+strings  data.txt | grep "="
+bandit 10
+base64 -d data.txt
+bandit 11
+cat p |  tr ‘n-za-mN-ZA-M’ ‘a-zA-Z’
