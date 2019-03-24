@@ -21,3 +21,6 @@ bandit 10
 base64 -d data.txt
 bandit 11
 cat p |  tr ‘n-za-mN-ZA-M’ ‘a-zA-Z’
+bandit 12
+a series of xxd gzip bzip2 and zcat 
+
