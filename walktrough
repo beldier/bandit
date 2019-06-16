@@ -23,4 +23,10 @@ bandit 11
 cat p |  tr ‘n-za-mN-ZA-M’ ‘a-zA-Z’
 bandit 12
 a series of xxd gzip bzip2 and zcat 
-
+bandit 13
+just use the private key with -i 
+to log into bandit14 , retrieve the password
+bandit 14
+did it in previous bandit
+bandit 15
+echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 
