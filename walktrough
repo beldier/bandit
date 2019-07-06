@@ -30,3 +30,15 @@ bandit 14
 did it in previous bandit
 bandit 15
 echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 
+bandit 16 
+openssl s_client -connect localhost:30001
+bandit 17
+nmap -p 31000-32000 localhost 
+openssl s_client -connect localhost:31518
+bantit 18
+diff passwords.old passwords.new 
+bandit 19
+ssh -p 2220 bandit18@bandit.labs.overthewire.org cat readme
+bandit 20
+/bandit20-do cat /etc/bandit_pass/bandit
+euid 
